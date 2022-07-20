@@ -1,4 +1,4 @@
-
+//Creating thread using Runnable  interface
 package com.tns.java;
 
 		class MyThread1 implements Runnable
@@ -22,6 +22,6 @@ package com.tns.java;
 			{
 			MyThread1 t=new MyThread1();
 			Thread s=new Thread(t);
-			s.start();
+			s.start(); // Start your Thread
 		}
 		}
